@@ -20,5 +20,8 @@ namespace u23533057_Practical02.Models
 
         [Display(Name = "Living Status")]
         public bool IsAlive { get; set; } = true;
+
+        [Display(Name = "myLink")]
+        public string myLink { get; set; }
     }
 }
